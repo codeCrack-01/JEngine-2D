@@ -1,0 +1,12 @@
+if (KeyboardInput.rightPressed) {
+            transform.position.x += speed;
+        }
+        if (KeyboardInput.leftPressed) {
+            transform.position.x -= speed;
+        }
+        if (KeyboardInput.upPressed) {
+            transform.position.y -= speed;
+        }
+        if (KeyboardInput.downPressed) {
+            transform.position.y += speed;
+        }
